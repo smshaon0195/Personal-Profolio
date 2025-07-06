@@ -1,0 +1,224 @@
+body{
+    background-color:rgb(205, 250, 250);
+    margin: 0px;
+    padding: 0px;
+}
+.topColorSide{
+    background-color: #7681c7;
+}
+.topDign{
+   
+    height: 420px;
+}
+.device_Width_Selected{
+    width:75%;
+    margin: auto;
+}
+.homeMenubarFlex{
+    display: flex;
+}
+.topSignUpColor button{
+    background-color: rgba(255, 255, 255, 0.247);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.topSignUpColor{
+    height: 45px;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+.homeMenu{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.singup, .login{
+    
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.topSignUpColor button:hover{
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+    background-color: black;
+}
+.reg_login{
+    text-align: right;
+}
+.nameProffsion{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+#mainName{
+    color: white;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+.proffesion{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.contactDtdailsDiv{
+    width: 350px;
+}
+.contact_Pic{
+    display: flex;
+}
+.shaonImg img{
+    width: 400px;
+    border: 4px solid rgb(19, 231, 12);
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.left_site_text {
+   width: 450px;
+   height: 400px;
+}
+#conDiv{
+    height: 40px;
+    width: 100%;
+    background-color: wheat;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#Contact{
+    color: blue;
+     width: 100%;
+     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.contact_Img{
+    height: 20px;
+    align-items: center;
+    display: flex;
+    border-right: 5px solid yellowgreen ;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+}
+.contact_Img:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+.contact_Img img{
+    margin-right: 20px;
+}
+.socialMediaContact h4{
+    color: white;
+    font-size: 25px;
+    margin: 20px 0px 5px 0px ;
+}
+.skill_div{
+    width: 180px;
+}
+.aboutMe{
+    width: 300px;
+}
+.aboutMe p{
+    text-align: justify;
+}
+.avarageInput{
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.Lidarship_Input{
+      background: linear-gradient(to right, #0496c7 70%, #ff99cc 20%);
+}
+.Strategic_Input{
+   background: linear-gradient(to right, #0496c7 81%, #ff99cc 20%);
+}
+
+.Business_Input{
+    background: linear-gradient(to right, #0496c7 95%, #ff99cc 25%);
+}
+.Communication_Input{
+        background: linear-gradient(to right, #0496c7 80%, #ff99cc 25%);
+
+}
+.left_skill_Div{
+    display: flex;
+}
+.sowfter_div{
+    width: 180px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.ps_Input{
+            background: linear-gradient(to right, #0906cf 90%, #24dd1e 25%);
+}
+.ai_Input{
+            background: linear-gradient(to right, #0906cf 75%, #24dd1e 25%);
+}
+.companyFile{
+    display: flex;
+    width: 400px;
+    margin-left: 20px;
+    /* background-color: #0496c7; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.desigantion{
+    width: 170px;
+}
+.desigantion h3{
+    margin: 0px;
+}
+.companydetails h3{
+    margin: 0px
+}
+.working_exprice{
+    position: relative;
+}
+.fotterBgColor{
+    background-color: rgb(99, 247, 165);
+}
+.fotter_flex{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.fotterWidth{
+    width: 230px;
+    text-align: justify;
+    margin-right: 15px;
+    padding: 5px;
+}
+.fotterWidth h3{
+    margin: 0px;
+}
+.services li{
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+.quickLink a{
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.quickLink ul{
+    margin-top: 0px;
+}
+.copyRightFotter{
+    background-color:bisque;
+}
+.copyrighttext{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

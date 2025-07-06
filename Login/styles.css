@@ -1,0 +1,92 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 60%;
+    background-color: rgb(166, 235, 203);
+}
+/* login form background img */
+.fromBgnd{
+    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/142/677/small_2x/free-vector-colorful-geometric-halftone-background.jpg); */
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+/* login from div */
+.loginFrom{
+    background-color: beige;
+    width: 40%;
+    margin: auto;
+    height: 76%;
+    border-radius: 3%;
+    padding: 50px;
+    box-shadow: 3px 2px 15px #a672cd;
+}
+#login_Main_tex{
+    background-color: blue;
+    color: white;
+    width: 60%;
+    border-radius: 30px 0px 30px 0px;
+    display:block;
+    text-align: center;
+    padding: 7px 0px 7px 0px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+input{
+    width: 93%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(235, 207, 207), rgb(248, 230, 248));
+
+    border: none;
+}
+input:hover{
+background: rgb(248, 167, 167);
+transition: 1s;
+}
+
+/* forgot pass link */
+.fogotPass, .frgtLink{
+    text-align: right;
+    text-decoration: none;
+    color:brown;
+}
+.loginBttn{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#lgnBtn{
+    padding: 8px;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: blue;
+    cursor:grab;
+    width: 80px;
+    border: none;
+    background-color: aqua;
+}
+#lgnBtn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px
+}
+/* login logo division */
+.SignUp_fbGoogleLogo, img{
+    text-align: center;
+    text-decoration: none;    
+}
+#orSignUpText{
+    text-align: center;
+}
+.alradySign{
+    text-align: center;
+}

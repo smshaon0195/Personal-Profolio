@@ -2,25 +2,23 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
     width: 60%;
-    background-color: rgb(166, 235, 203);
-}
-/* login form background img */
-.fromBgnd{
-    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/142/677/small_2x/free-vector-colorful-geometric-halftone-background.jpg); */
-    height: 550px;
+    background-image: url(https://previews.123rf.com/images/robertsrob/robertsrob1302/robertsrob130200013/17778043-beautiful-sunlight-in-the-autumn-forest-beauty-nature-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
 }
+/* login form background img */
+
 /* login from div */
 .loginFrom{
-    background-color: beige;
+    background-color: rgba(248, 248, 9, 0.911);
     width: 40%;
     margin: auto;
     height: 76%;
     border-radius: 3%;
     padding: 50px;
     box-shadow: 3px 2px 15px #a672cd;
+    margin-top: 20px;
+
 }
 #login_Main_tex{
     background-color: blue;
